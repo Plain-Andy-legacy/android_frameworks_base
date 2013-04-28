@@ -30,4 +30,7 @@
   <java-symbol type="array" name="shutdown_reboot_options" />
   <java-symbol type="array" name="shutdown_reboot_actions" />
 
+  <!-- In WiFi AP notification -->
+  <java-symbol type="string" name="notify_turn_wifi_ap_off_title" />
+
 </resources>
