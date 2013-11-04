@@ -25,6 +25,8 @@
 
   <!-- Proximity check timeout -->
   <java-symbol type="integer" name="config_proximityCheckTimeout" />
+  
+  <java-symbol type="bool" name="config_samsung_stk" />
 
   <!-- Reboot menu -->
   <java-symbol type="array" name="shutdown_reboot_options" />
