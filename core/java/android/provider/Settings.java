@@ -2759,141 +2759,6 @@ public final class Settings {
         public static final String DOUBLE_TAP_SLEEP_GESTURE = "double_tap_sleep_gesture";
 
         /**
-<<<<<<< HEAD
-=======
-         * Show the pending notification counts as overlays on the status bar
-         * @hide
-         */
-        public static final String STATUS_BAR_NOTIF_COUNT = "status_bar_notif_count";
-
-        /**
-         * Enable/disable overwrite default value for ambient display
-         * @hide
-         */
-        public static final String DOZE_OVERWRITE_VALUE = "doze_overwrite_value";
-
-        /**
-         * Duration in for ambient display
-         * @hide
-         */
-        public static final String DOZE_PULSE_DURATION_IN = "doze_pulse_duration_in";
-
-        /**
-         * Duration visible for ambient display
-         * @hide
-         */
-        public static final String DOZE_PULSE_DURATION_VISIBLE = "doze_pulse_duration_visible";
-
-        /**
-         * Duration out for ambient display
-         * @hide
-         */
-        public static final String DOZE_PULSE_DURATION_OUT = "doze_pulse_duration_out";
-
-        /**
-         * Pulse if there is notifications for ambient display
-         * @hide
-         */
-        public static final String DOZE_PULSE_ON_NOTIFICATIONS = "doze_pulse_on_notifications";
-
-        /**
-         * Shake threshold for ambient display
-         * @hide
-         */
-        public static final String DOZE_SHAKE_ACC_THRESHOLD = "doze_shake_acc_threshold";
-
-        /**
-         * Pocket mode for ambient display
-         * @hide
-         */
-        public static final String DOZE_POCKET_MODE = "doze_pocket_mode";
-
-        /**
-         * Shake mode for ambient display
-         * @hide
-         */
-        public static final String DOZE_SHAKE_MODE = "doze_shake_mode";
-        
-        /**
-         * Time mode for ambient display
-         * @hide
-         */
-        public static final String DOZE_TIME_MODE = "doze_time_mode";
-
-        /**
-         * Color of the quick settings panel background
-         * @hide
-         */
-        public static final String QS_BACKGROUND_COLOR = "qs_background_color";
-
-        /**
-         * Color of the quick settings icons
-         * @hide
-         */
-        public static final String QS_ICON_COLOR = "qs_icons_color";
-
-        /**
-         * Color of the quick settings text
-         * @hide
-         */
-        public static final String QS_TEXT_COLOR = "qs_text_color";
-
-        /**
-         * Transparent shade
-         * @hide
-         */
-        public static final String QS_TRANSPARENT_SHADE = "qs_transparent_shade";
-
-        /**
-         * Turn quick settings colors on and off
-         * @hide
-         */
-        public static final String QS_COLOR_SWITCH = "qs_color_switch";
-
-        /**
-         * Enable/Disable screenshot sound
-         * @hide
-         */
-        public static final String SCREENSHOT_SOUND = "screenshot_sound";
-
-        /**
-         * Show when WiFi or data mobile is sending/receiving data
-         * @hide
-         */
-        public static final String STATUS_BAR_SHOW_NETWORK_ACTIVITY = "status_bar_show_network_activity";
-
-        /**
-         * Force expanded notifications on all apps that support it.
-         * @hide
-         */
-        public static final String FORCE_EXPANDED_NOTIFICATIONS = "force_expanded_notifications";
-
-        /**
-         * show carrier in statusbar. The value is
-         * int (1: Show or 0: Hide).
-         */
-        public static final String STATUS_BAR_CARRIER = "status_bar_carrier";
-
-        /**
-         * custom carrier label. The value is
-         * String.
-         */
-        public static final String CUSTOM_CARRIER_LABEL = "custom_carrier_label";
-
-        /**
-         * Carrier Label Custom Color
-         * @hide
-         */
-        public static final String STATUS_BAR_CARRIER_COLOR = "status_bar_carrier_color";
-
-        /**
-         * Whether to show or hide search bar in recents view
-         * @hide
-         */
-        public static final String RECENTS_SEARCH_BAR = "recents_search_bar";
-
-        /**
->>>>>>> a4d6d4a... (1/2) SystemUI; Plain-Tweak info notify at boot
          * Boolean value whether to expand the volume panel
          * @hide
          */
@@ -2919,6 +2784,24 @@ public final class Settings {
          * @hide
          */
         public static final String PLAIN_TWEAK_NOTIFICATIONS = "plain_tweak_notifications";
+
+        /**
+         * Whether the phone ringtone should be played in an increasing manner
+         * @hide
+         */
+        public static final String INCREASING_RING = "increasing_ring";
+
+        /**
+         * Start volume fraction for increasing ring volume
+         * @hide
+         */
+        public static final String INCREASING_RING_START_VOLUME = "increasing_ring_start_vol";
+
+        /**
+         * Ramp up time (seconds) for increasing ring
+         * @hide
+         */
+        public static final String INCREASING_RING_RAMP_UP_TIME = "increasing_ring_ramp_up_time";
 
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
@@ -2989,7 +2872,10 @@ public final class Settings {
             RINGTONE,
             LOCK_TO_APP_ENABLED,
             NOTIFICATION_SOUND,
-            PLAIN_TWEAK_NOTIFICATIONS
+            PLAIN_TWEAK_NOTIFICATIONS,
+            INCREASING_RING,
+            INCREASING_RING_START_VOLUME,
+            INCREASING_RING_RAMP_UP_TIME
         };
 
         /**
