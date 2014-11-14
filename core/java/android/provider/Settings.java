@@ -1916,7 +1916,13 @@ public final class Settings {
          */
         @Deprecated
         public static final String WIFI_STATIC_DNS2 = "wifi_static_dns2";
-
+ 
+        /**
+         * If all file types can be accepted over Bluetooth OBEX.
+         * @hide
+         */
+        public static final String BLUETOOTH_ACCEPT_ALL_FILES =
+            "bluetooth_accept_all_files";
 
         /**
          * Determines whether remote devices may discover and/or connect to
