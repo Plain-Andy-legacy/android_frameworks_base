@@ -42,4 +42,6 @@
   <!-- Hardware keys -->
   <java-symbol type="integer" name="config_deviceHardwareKeys" />
 
+  <!-- Volume panel expanded -->
+  <java-symbol type="drawable" name="expander_open_mtrl_alpha" />
 </resources>
